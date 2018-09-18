@@ -24,6 +24,7 @@ import pandas as pd
 import datetime
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import os
 
 #url = "https://www.amazon.co.jp/gp/bestsellers/books/4915091051" の情報を取得する
 uri = 'https://www.amazon.co.jp/'
