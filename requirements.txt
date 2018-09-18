@@ -24,7 +24,6 @@ pyasn1-modules==0.2.2
 pycodestyle==2.4.0
 pydocstyle==2.1.1
 pyflakes==2.0.0
-python-language-server==0+unknown
 requests==2.19.1
 retry==0.9.2
 rope==0.10.7
