@@ -39,7 +39,7 @@ def pages():
     return urls
 
 #urlsリストのページ情報を取得
-@retry(urllib.error.HTTPError, tries=12, delay=1 backoff=2)
+@retry(urllib.error.HTTPError, tries=12, delay=1, backoff=2)
 def soup_url(urls):
     soups = []
     for url in urls:
