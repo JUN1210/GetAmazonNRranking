@@ -15,7 +15,7 @@ httplib2==0.11.3
 idna==2.7
 jedi==0.12.1
 json-rpc==1.11.1
-lxml==4.2.5
+lxml==4.6.2
 mccabe==0.6.1
 numpy==1.15.1
 oauth2client==4.1.3
